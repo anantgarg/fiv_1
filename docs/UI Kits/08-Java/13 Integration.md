@@ -179,7 +179,7 @@ dependencies {
 
 - Clone the UI Kit Library from the [android-chat-ui-kit repository](https://github.com/cometchat-pro/android-java-chat-ui-kit/tree/pluto), or
 
-<p style="margin-left:30px;"><a class="button" style="background:#6929CA;color:#fff;" href="https://github.com/cometchat-pro/android-java-chat-ui-kit/archive/pluto.zip"><i class="fa fa-download"></i> Download UI Kit Library</a></p>
+<p style={{ marginLeft:'30px' }}><a class="button" style={{ background: '#6929CA', color: '#fff' }} href="https://github.com/cometchat-pro/android-java-chat-ui-kit/archive/pluto.zip"><i class="fa fa-download"></i> Download UI Kit Library</a></p>
 
 #### **Step 4: Import Pluto UIkit**
 

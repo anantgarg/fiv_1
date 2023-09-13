@@ -165,7 +165,7 @@ To integrate the UI Kit, please follow the steps below:
 
 1. Clone the UI Kit Library from the [android-chat-ui-kit repository](https://github.com/cometchat-pro/android-java-chat-ui-kit) or
 
-<p style="margin-left:30px;"><a class="button btn btn-primary" href="https://github.com/cometchat-pro/android-java-chat-ui-kit/archive/master.zip">Download UI Kit Library</a></p>
+<p style={{ marginLeft: '30px' }}><a class="button btn btn-primary" href="https://github.com/cometchat-pro/android-java-chat-ui-kit/archive/master.zip">Download UI Kit Library</a></p>
 
 
 2. Import `uikit` Module from Module Settings.( To know how to import `uikit` as Module visit this [link](https://prodocs.cometchat.com/docs/android-ui-kit-setup) )

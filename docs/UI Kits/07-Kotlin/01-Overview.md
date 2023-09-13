@@ -162,7 +162,7 @@ To integrate the UI Kit, please follow the steps below:
 
 - Clone the UI Kit-Kotlin Library from the [android-kotlin-chat-ui-kit](https://github.com/cometchat-pro/android-kotlin-chat-ui-kit/tree/v3)  repository
 
-<p style="margin-left:30px;"><a class="button" style="background:#6929CA;color:#fff;" href="https://github.com/cometchat-pro/android-kotlin-chat-ui-kit/archive/v3.zip"><i class="fa fa-download"></i>  Download Kotlin UI Kit Library</a></p>
+<p style={{ marginLeft: '30px' }}><a class="button" style={{ background: '#6929CA', color: '#fff' }} href="https://github.com/cometchat-pro/android-kotlin-chat-ui-kit/archive/v3.zip"><i class="fa fa-download"></i>  Download Kotlin UI Kit Library</a></p>
 
 - Import `uikit-kotlin` Module from Module Settings
 - If the Library is added successfully, it will look like mentioned in the below image.

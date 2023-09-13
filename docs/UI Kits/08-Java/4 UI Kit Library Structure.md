@@ -95,16 +95,16 @@ It includes helper & utils file which are used accross UI Kit library.
 
 It includes UIKitSettings.java file which is used to modify the uikit features which making any changes at code level.
 
-<div class="row text-center" style="border: 1px dotted grey;padding:20px;border-radius:10px;">
+<div class="row text-center" style={{ border: '1px dotted grey', padding: '20px', borderRadius: '10px' }}>
   <div class="col px-0 text-left">
   <a href="https://cometchat-docs.developerhub.io/docs/java-ui-kit/android-customize-ui-kit">
 	  <h2>Customize UI Kit</h2>
     <h4>This guide helps you to customize, modify, and enable/disable features present in UIKit.</h4>
     </a>
   </div>
-	<div class="col px-0" style="margin-top:50px;">
+	<div class="col px-0" style={{ marginTop: '50px' }}>
     <a href="https://cometchat-docs.developerhub.io/docs/java-ui-kit/android-customize-ui-kit">
-		<img style ="min-width: 200px" src="https://assets-global.website-files.com/5f3c19f18169b65d9d0bf384/5f3c19f18169b655820bf3d4_asset%2021.svg"/>
+		<img style ={{ minWidth: '200px' }} src="https://assets-global.website-files.com/5f3c19f18169b65d9d0bf384/5f3c19f18169b655820bf3d4_asset%2021.svg"/>
     </a>
 	</div>
 </div>
