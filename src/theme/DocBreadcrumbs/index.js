@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import clsx from "clsx";
 import { ThemeClassNames } from "@docusaurus/theme-common";
 import { useLocation } from "@docusaurus/router";
@@ -22,6 +22,11 @@ function extractURL(url, item) {
   } else {
     return url;
   }
+}
+
+function makeBreadcrumbFromUrl(url) {
+  const words = url.split('-');
+  return words.map(w => w.charAt(0).toUpperCase() +  w.slice(1)).join(" ");
 }
 
 // TODO move to design system folder
@@ -89,6 +94,16 @@ export default function DocBreadcrumbs() {
   const breadcrumbs = useSidebarBreadcrumbs();
   const homePageRoute = useHomePageRoute();
   const location = useLocation();
+  const [flag, setFlag ] = useState(true);
+
+  useEffect(() => {
+    console.log(location.pathname)
+    console.log(breadcrumbs)
+    const label = breadcrumbs[0].label.toLowerCase().split(" ").join("-");
+    if(breadcrumbs[0].href.includes(label)) {
+      setFlag(false);
+    }
+  }, []);
 
   if (!breadcrumbs) {
     return null;
@@ -122,12 +137,12 @@ export default function DocBreadcrumbs() {
                 <BreadcrumbsItemLink
                   href={extractURL(location.pathname, item)}
                   isLast={false}>
-                  {item}
+                  {makeBreadcrumbFromUrl(item)}
                 </BreadcrumbsItemLink>
               </BreadcrumbsItem>
             );
           })}
-        {breadcrumbs.map((item, idx) => {
+        {/* {flag && breadcrumbs.map((item, idx) => {
           const isLast = idx === breadcrumbs.length - 1;
           return (
             <BreadcrumbsItem
@@ -140,7 +155,7 @@ export default function DocBreadcrumbs() {
               </BreadcrumbsItemLink>
             </BreadcrumbsItem>
           );
-        })}
+        })} */}
       </ul>
     </nav>
   );

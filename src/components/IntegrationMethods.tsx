@@ -8,7 +8,7 @@ const DATA = [
     items: [
       {
         title: "React",
-        link: "/chat/ui-kits/react",
+        link: "/ui-kits/react",
       },
       {
         title: "React Native",

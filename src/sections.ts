@@ -7,6 +7,8 @@ import {
   AppleIcon,
   FlutterIcon,
   VueIcon,
+  AngularIcon,
+  KotlinIcon,
 } from "./icons";
 
 export type SectionsGroup = {
@@ -28,6 +30,55 @@ export type Section = { docId: string } & (
 );
 
 const SECTIONS: Section[] = [
+  // UI Kits
+  {
+    name: "React",
+    docId: "ui-kit-react",
+    icon: ReactIcon,
+    section: "ui-kits",
+  },
+  {
+    name: "Android",
+    docId: "ui-kit-android",
+    icon: AndroidIcon,
+    section: "ui-kits",
+  },
+  {
+    name: "React Native",
+    docId: "ui-kit-react-native",
+    icon: ReactIcon,
+    section: "ui-kits",
+  },
+  {
+    name: "Vue",
+    docId: "ui-kit-vue",
+    icon: VueIcon,
+    section: "ui-kits",
+  },
+  {
+    name: "Angular",
+    docId: "ui-kit-angular",
+    icon: AngularIcon,
+    section: "ui-kits",
+  },
+  {
+    name: "iOS",
+    docId: "ui-kit-ios",
+    icon: AndroidIcon,
+    section: "ui-kits",
+  },
+  {
+    name: "Kotlin",
+    docId: "ui-kit-kotlin",
+    icon: KotlinIcon,
+    section: "ui-kits",
+  },
+  {
+    name: "Java",
+    docId: "ui-kit-java",
+    icon: ReactIcon,
+    section: "ui-kits",
+  },
   // - Chat / SDK
   {
     name: "JavaScript",
@@ -161,6 +212,13 @@ const SECTIONS: Section[] = [
 ];
 
 const SECTION_GROUPS: SectionsGroup[][] = [
+  [
+    {
+      name: "UI Kits",
+      section: "ui-kits",
+      description: "Description for UI Kits",
+    },
+  ],
   [
     {
       name: "Chat SDK",

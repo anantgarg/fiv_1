@@ -1,5 +1,94 @@
 [
   {
+    "id": "ui-kit-react",
+    "path": "docs/UI Kits/01-React",
+    "routeBasePath": "/ui-kit/react",
+    "lastVersion": "current",
+    "versions": {
+      "current": {
+        "label": "v3"
+      }
+    }
+  },
+  {
+    "id": "ui-kit-android",
+    "path": "docs/UI Kits/02-Android",
+    "routeBasePath": "/ui-kit/android",
+    "lastVersion": "current",
+    "versions": {
+      "current": {
+        "label": "v3"
+      }
+    }
+  },
+  {
+    "id": "ui-kit-react-native",
+    "path": "docs/UI Kits/03-React Native",
+    "routeBasePath": "/ui-kit/react-native",
+    "lastVersion": "current",
+    "versions": {
+      "current": {
+        "label": "v3"
+      }
+    }
+  },
+  {
+    "id": "ui-kit-vue",
+    "path": "docs/UI Kits/04-Vue",
+    "routeBasePath": "/ui-kit/vue",
+    "lastVersion": "current",
+    "versions": {
+      "current": {
+        "label": "v3"
+      }
+    }
+  },
+  {
+    "id": "ui-kit-angular",
+    "path": "docs/UI Kits/05-Angular",
+    "routeBasePath": "/ui-kit/angular",
+    "lastVersion": "current",
+    "versions": {
+      "current": {
+        "label": "v3"
+      }
+    }
+  },
+  {
+    "id": "ui-kit-ios",
+    "path": "docs/UI Kits/06-iOS",
+    "routeBasePath": "/ui-kit/ios",
+    "lastVersion": "current",
+    "versions": {
+      "current": {
+        "label": "v3"
+      }
+    }
+  },
+  {
+    "id": "ui-kit-kotlin",
+    "path": "docs/UI Kits/07-Kotlin",
+    "routeBasePath": "/ui-kit/kotlin",
+    "lastVersion": "current",
+    "versions": {
+      "current": {
+        "label": "v3"
+      }
+    }
+  },
+  {
+    "id": "ui-kit-java",
+    "path": "docs/UI Kits/08-Java",
+    "routeBasePath": "/ui-kit/java",
+    "lastVersion": "current",
+    "versions": {
+      "current": {
+        "label": "v3"
+      }
+    }
+  },
+
+  {
     "id": "chat",
     "path": "docs/docs/chat/sdks",
     "routeBasePath": "/chat/sdks",

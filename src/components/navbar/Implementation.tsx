@@ -9,7 +9,7 @@ function formatLink(base, title) {
 const DATA = [
   {
     title: "UI Kits",
-    base: "/chat/ui-kits/",
+    base: "/ui-kit/",
     items: [
       {
         title: "React",
